@@ -1,0 +1,48 @@
+Questions:
+
+Instructions:
+
+You have 60 minutes to complete the following tasks.
+Write the necessary code to accomplish each task.
+Ensure your code is readable, well-structured, and adheres to best practices.
+Feel free to ask for clarification if needed.
+Tasks:
+
+Task 1: Passing Components as Props
+
+Create a parent component called ParentComponent.
+Inside ParentComponent, define a child component called ChildComponent.
+Pass a string prop called message from ParentComponent to ChildComponent.
+Display the message prop inside ChildComponent.
+Task 2: Functional Component as Prop
+
+Create a functional component called FunctionalComponent.
+Pass FunctionalComponent as a prop called renderProp to ParentComponent.
+Inside ParentComponent, render the renderProp function and pass a prop count with a value of 5 to it.
+FunctionalComponent should display the received count prop.
+Task 3: useState Hook
+
+Create a component called Counter.
+Use the useState hook to initialize a state variable count with an initial value of 0.
+Display the count value and two buttons labeled "Increment" and "Decrement".
+Implement functionality to increment and decrement the count state when corresponding buttons are clicked.
+Task 4: useEffect Hook
+
+Create a component called DataFetcher.
+Inside DataFetcher, use the useEffect hook to fetch data from an API endpoint (https://api.example.com/data) when the component mounts.
+Store the fetched data in a state variable called data.
+Display the fetched data on the screen.
+Task 5: Custom Hook
+
+Create a custom hook called useLocalStorage.
+Implement this hook to store and retrieve a value in local storage.
+Use this hook in a component to store and retrieve a piece of state named username.
+Display the username and provide an input field to update it.
+Task 6: Managing Multiple Components
+
+Create three components: Header, Sidebar, and Content.
+Render these components within a parent component called MainLayout.
+Header should display a title.
+Sidebar should display a list of menu items.
+Content should display dynamic content based on the selected menu item.
+Submission: Once you have completed the tasks, zip your code files and submit them. Make sure your code is properly commented and organized.
