@@ -1,0 +1,58 @@
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.header{
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+.mainlayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.sidebar{
+    flex:1;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.content{
+    flex:2;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.098);
+}
+
+.li_task{
+    float:left;
+    padding:5px 10px;
+    list-style-type: none;
+    
+}
+.alink{
+    text-decoration: none;
+    color:black;  
+}
+.alink:hover{
+    color:rgb(110, 87, 110)
+}
+.ul_app{
+    background-color: rgb(208, 214, 215); 
+}
+.main_app{
+    display: flex;
+    flex-direction: column;
+}
