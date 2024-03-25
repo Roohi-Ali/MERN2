@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+
+
+.nav-bar{
+  background-color: #1a1a1a;
+ 
+  font-size: 20px;
+  display:flex;
+}
+
+.nav-bar ul li{
+  float:left;
+  padding: 10px;
+  list-style-type: none;
+  
+}
+
+.alink{
+  text-decoration: none;
+  color: white;
+
+}
+
+h2{
+  text-align: center;
+}
